@@ -20,12 +20,23 @@ const Hero = () => (
             <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px]
              text-white ss:leading-[100px] leading-[75px]'>
               The Next <br className='sm:block hidden'/> {" "}
-              <span className='text-gradient'>Generation</span>{" "} Payment Method.
+              <span className='text-gradient'>Generation</span>{" "}
             </h1>
             <div className="ss:flex hidden md:mr-4 mr-0">
               <GetStarted />
             </div>
           </div>
+          <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px]
+             text-white ss:leading-[100px] leading-[75px] w-full'>
+              Payment Method.
+             </h1>
+          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Lets say something here</p>
+      </div>
+      <div className="">
+        <img className='w-[100%] h-[100%] relative z-[5]' src={robot} alt="billing" />
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink_gradient'/>
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink_gradient'/>
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink_gradient'/>
       </div>
     </section>  
 )
